@@ -1,0 +1,28 @@
+{
+	"name" : "realitygaps/spaceapi",
+	"description" : "SpaceAPI extension for Bolt",
+	"type" : "bolt-extension",
+	"keywords" : [
+		"SpaceAPI"
+	],
+	"require" : {
+		"bolt/bolt" : ">=2.0.0,<3.0.0"
+	},
+	"license" : "GPL-2.0+",
+	"authors" : [{
+			"name" : "realitygaps",
+			"email" : "bolt@gapsinreality.com"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"init.php"
+		],
+		"psr-4" : {
+			"Bolt\\Extension\\Bolt\\SpaceAPI\\" : [
+				"",
+				"src/"
+			]
+		}
+	}
+}

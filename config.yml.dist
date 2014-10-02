@@ -1,0 +1,15 @@
+api: 0.13
+space: Example space
+logo: logo.png
+url: http://example.com
+locationaddress: address goes here
+lon: 9.3
+lat: 14.4
+email: testing@example.com
+irc: irc.freenode.net/example
+ml: mailinglists.example.com
+twitter: http://twitter.com/example
+openicon: openicon.png
+closedicon: closedicon.png
+state: true
+projects: http://projects.example.com

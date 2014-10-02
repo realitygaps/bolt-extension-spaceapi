@@ -1,0 +1,27 @@
+{
+    "api": "{{ spaceapi.api }}",
+    "space": "{{ spaceapi.space }}",
+    "logo": "{{ spaceapi.logo }}",
+    "url": "{{ spaceapi.url }}",
+    "location": {
+        "address": "{{ spaceapi.locationaddress }}",
+        "lon": {{ spaceapi.lon }},
+        "lat": {{ spaceapi.lat }}
+    },
+    "contact": {
+        "email": "{{ spaceapi.email }}",
+        "irc": "{{ spaceapi.irc }}",
+        "ml": "{{ spaceapi.ml }}",
+        "twitter": "{{ spaceapi.twitter }}"
+    },
+    "state": {
+        "icon": {
+            "open": "{{ spaceapi.openicon }}",
+            "closed": "{{ spaceapi.closedicon }}"
+        },
+        "open": {{ spaceapi.state }}
+    },
+    "projects": [
+        "{{ spaceapi.projects }}"
+    ]
+}
